@@ -70,7 +70,7 @@ linkml_meta = LinkMLMeta({'default_prefix': 'linkml_tutorial_2025',
      'default_range': 'string',
      'description': 'This is a GitHub to learn LinkML and understand if it fit my '
                     'need',
-     'id': 'https://w3id.org/Sufficient-ECS/linkml-tutorial-2025',
+     'id': 'https://w3id.org/rdethienne/linkml-tutorial-2025',
      'imports': ['linkml:types'],
      'license': 'GPL-3.0-only',
      'name': 'linkml-tutorial-2025',
@@ -83,10 +83,10 @@ linkml_meta = LinkMLMeta({'default_prefix': 'linkml_tutorial_2025',
                   'linkml': {'prefix_prefix': 'linkml',
                              'prefix_reference': 'https://w3id.org/linkml/'},
                   'linkml_tutorial_2025': {'prefix_prefix': 'linkml_tutorial_2025',
-                                           'prefix_reference': 'https://w3id.org/Sufficient-ECS/linkml-tutorial-2025/'},
+                                           'prefix_reference': 'https://w3id.org/rdethienne/linkml-tutorial-2025/'},
                   'schema': {'prefix_prefix': 'schema',
                              'prefix_reference': 'http://schema.org/'}},
-     'see_also': ['https://Sufficient-ECS.github.io/linkml-tutorial-2025'],
+     'see_also': ['https://rdethienne.github.io/linkml-tutorial-2025'],
      'source_file': 'src/linkml_tutorial_2025/schema/linkml_tutorial_2025.yaml',
      'title': 'linkml-tutorial-2025'} )
 
@@ -114,7 +114,7 @@ class NamedThing(ConfiguredBaseModel):
     A generic grouping for any identifiable entity
     """
     linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'class_uri': 'schema:Thing',
-         'from_schema': 'https://w3id.org/Sufficient-ECS/linkml-tutorial-2025'})
+         'from_schema': 'https://w3id.org/rdethienne/linkml-tutorial-2025'})
 
     id: str = Field(default=..., description="""A unique identifier for a thing""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing'], 'slot_uri': 'schema:identifier'} })
     name: Optional[str] = Field(default=None, description="""A human-readable name for a thing""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing'], 'slot_uri': 'schema:name'} })
@@ -125,7 +125,7 @@ class Person(NamedThing):
     """
     Represents a Person
     """
-    linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/Sufficient-ECS/linkml-tutorial-2025',
+    linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/rdethienne/linkml-tutorial-2025',
          'slot_usage': {'primary_email': {'name': 'primary_email',
                                           'pattern': '^\\S+@[\\S+\\.]+\\S+'}}})
 
@@ -155,7 +155,7 @@ class PersonCollection(ConfiguredBaseModel):
     """
     A holder for Person objects
     """
-    linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/Sufficient-ECS/linkml-tutorial-2025',
+    linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/rdethienne/linkml-tutorial-2025',
          'tree_root': True})
 
     people: Optional[list[Person]] = Field(default=None, json_schema_extra = { "linkml_meta": {'domain_of': ['PersonCollection']} })

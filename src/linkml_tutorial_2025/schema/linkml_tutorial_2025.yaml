@@ -1,15 +1,15 @@
 ---
-id: https://w3id.org/Sufficient-ECS/linkml-tutorial-2025
+id: https://w3id.org/rdethienne/linkml-tutorial-2025
 name: linkml-tutorial-2025
 title: linkml-tutorial-2025
 description: |-
   This is a GitHub to learn LinkML and understand if it fit my need
 license: GPL-3.0-only
 see_also:
-  - https://Sufficient-ECS.github.io/linkml-tutorial-2025
+  - https://rdethienne.github.io/linkml-tutorial-2025
 
 prefixes:
-  linkml_tutorial_2025: https://w3id.org/Sufficient-ECS/linkml-tutorial-2025/
+  linkml_tutorial_2025: https://w3id.org/rdethienne/linkml-tutorial-2025/
   linkml: https://w3id.org/linkml/
   biolink: https://w3id.org/biolink/vocab/
   schema: http://schema.org/

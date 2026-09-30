@@ -6,7 +6,7 @@ This is a GitHub to learn LinkML and understand if it fit my need
 
 ## Documentation Website
 
-[https://Sufficient-ECS.github.io/linkml-tutorial-2025](https://Sufficient-ECS.github.io/linkml-tutorial-2025)
+[https://rdethienne.github.io/linkml-tutorial-2025](https://rdethienne.github.io/linkml-tutorial-2025)
 
 ## Repository Structure
 

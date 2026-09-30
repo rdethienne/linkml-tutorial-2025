@@ -1,8 +1,8 @@
 # Auto generated from linkml_tutorial_2025.yaml by pythongen.py version: 0.0.1
-# Generation date: 2026-09-30T13:15:50
+# Generation date: 2026-09-30T13:37:41
 # Schema: linkml-tutorial-2025
 #
-# id: https://w3id.org/Sufficient-ECS/linkml-tutorial-2025
+# id: https://w3id.org/rdethienne/linkml-tutorial-2025
 # description: This is a GitHub to learn LinkML and understand if it fit my need
 # license: GPL-3.0-only
 
@@ -67,7 +67,7 @@ PATO = CurieNamespace('PATO', 'http://purl.obolibrary.org/obo/PATO_')
 BIOLINK = CurieNamespace('biolink', 'https://w3id.org/biolink/vocab/')
 EXAMPLE = CurieNamespace('example', 'http://www.example.org/rdf#')
 LINKML = CurieNamespace('linkml', 'https://w3id.org/linkml/')
-LINKML_TUTORIAL_2025 = CurieNamespace('linkml_tutorial_2025', 'https://w3id.org/Sufficient-ECS/linkml-tutorial-2025/')
+LINKML_TUTORIAL_2025 = CurieNamespace('linkml_tutorial_2025', 'https://w3id.org/rdethienne/linkml-tutorial-2025/')
 SCHEMA = CurieNamespace('schema', 'http://schema.org/')
 DEFAULT_ = LINKML_TUTORIAL_2025
 

@@ -67,8 +67,8 @@ nav:
 exclude_docs: |
   /templates-linkml/
 
-site_url: https://Sufficient-ECS.github.io/linkml-tutorial-2025
-repo_url: https://github.com/Sufficient-ECS/linkml-tutorial-2025
+site_url: https://rdethienne.github.io/linkml-tutorial-2025
+repo_url: https://github.com/rdethienne/linkml-tutorial-2025
 
 # Uncomment this block to enable use of Google Analytics.
 # Replace the property value with your own ID.
